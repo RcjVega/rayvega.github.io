@@ -61,7 +61,7 @@ defaultContentLanguage = "es"
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/<tu-usuario>"
+  url = "https://github.com/RcjVega"
 [[params.socialIcons]]
   name = "linkedin"
-  url = "https://www.linkedin.com/in/<tu-perfil>/"
+  url = "https://www.linkedin.com/in/ecovega27/"
