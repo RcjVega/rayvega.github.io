@@ -1,0 +1,66 @@
+baseURL = "https://<tu-usuario>.github.io/"
+title = "Ray Vega"
+theme = "PaperMod"
+languageCode = "es"
+defaultContentLanguage = "es"
+paginate = 10
+
+[params]
+  env = "production"
+  title = "Ray Vega"
+  description = "Economista | Econometría | Regulación"
+  author = "Ray Vega"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  disableScrollToTop = false
+
+[params.profileMode]
+  enabled = true
+  title = "Ray Vega"
+  subtitle = "Economista y docente de Econometría y Microeconometría en Lima. Investigación aplicada en pobreza, infraestructura y regulación."
+  imageUrl = "images/profile.jpg"
+  imageTitle = "Foto de perfil"
+  imageWidth = 160
+  imageHeight = 160
+  buttons = [
+    { name = "Research", url = "research/" },
+    { name = "Clases", url = "clases/" },
+    { name = "CV", url = "pdf/cv.pdf" },
+    { name = "Software", url = "software/" },
+    { name = "Posts", url = "posts/" }
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Clases"
+    url = "/clases/"
+    weight = 3
+  [[menu.main]]
+    name = "CV"
+    url = "/pdf/cv.pdf"
+    weight = 4
+  [[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 5
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 6
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/<tu-usuario>"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/<tu-perfil>/"
