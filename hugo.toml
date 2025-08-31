@@ -3,7 +3,8 @@ title = "Ray Vega"
 theme = "PaperMod"
 languageCode = "es"
 defaultContentLanguage = "es"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = "production"
@@ -26,7 +27,7 @@ paginate = 10
   imageHeight = 160
   buttons = [
     { name = "Research", url = "research/" },
-    { name = "Clases", url = "clases/" },
+    { name = "Teaching", url = "teaching/" },
     { name = "CV", url = "pdf/cv.pdf" },
     { name = "Software", url = "software/" },
     { name = "Posts", url = "posts/" }
@@ -42,8 +43,8 @@ paginate = 10
     url = "/research/"
     weight = 2
   [[menu.main]]
-    name = "Clases"
-    url = "/clases/"
+    name = "Teaching"
+    url = "/teaching/"
     weight = 3
   [[menu.main]]
     name = "CV"
