@@ -20,8 +20,7 @@
    enabled = true
    title = "Ray Vega"
    subtitle = "Economista y docente de Econometría y Microeconometría en Lima. Investigación aplicada en pobreza, infraestructura y regulación."
--  imageUrl = "images/profile.jpg"
-+  imageUrl = "images/profile.png"
+   imageUrl = "images/profile.png"
    imageTitle = "Foto de perfil"
    imageWidth = 160
    imageHeight = 160
@@ -61,9 +60,12 @@
  
  [[params.socialIcons]]
    name = "github"
--  url = "https://github.com/<tu-usuario>"
-+  url = "https://github.com/rayvega"
+   url = "https://github.com/RcjVega"
  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/ecovega27/"
+
+ 
    name = "linkedin"
 -  url = "https://www.linkedin.com/in/<tu-perfil>/"
 +  url = "https://www.linkedin.com/in/rayvega/"
