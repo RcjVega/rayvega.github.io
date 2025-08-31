@@ -11,5 +11,4 @@ Estructura mínima para publicar en **GitHub Pages** usando **Hugo** y el tema *
 5. La URL será: `https://<tu-usuario>.github.io/` (o `https://<tu-usuario>.github.io/<repo>/` si usas Pages por proyecto).
 
 
-
 > Sustituye `<tu-usuario>` en `hugo.toml`.
