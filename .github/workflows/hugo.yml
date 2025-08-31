@@ -21,7 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Trae el tema PaperMod (necesario para que Hugo encuentre el tema)
       - name: Get PaperMod theme
         run: git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
 
@@ -34,7 +33,6 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      # Prepara el artefacto que Pages va a publicar
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -47,11 +45,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # Configura Pages antes del deploy (evita varios errores comunes)
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
