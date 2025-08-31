@@ -14,4 +14,5 @@ Estructura mínima para publicar en **GitHub Pages** usando **Hugo** y el tema *
 
 
 
+
 > Sustituye `<tu-usuario>` en `hugo.toml`.
