@@ -1,1 +1,10 @@
+---
+title: "Clases"
+---
+
+### Econometría (2025-I)
+- Sesión 1: Introducción y repaso de estadística. [PPT](/pdf/eco_s01.pdf)
+
+### Microeconometría (2025-I)
+- Sesión 1: Modelos de elección discreta (Logit/Probit). [PPT](/pdf/micro_s01.pdf)
 
